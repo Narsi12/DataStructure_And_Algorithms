@@ -5,6 +5,7 @@ for i in range(numDays):
     nextDay = float(input("Day"+str(i+1)+"'s temparure : "))
     temp.append(nextDay)
     total += temp[i]
+    print(total)
 
 avg = round(total/numDays,2)
 print("\n Average = "+str(avg))
