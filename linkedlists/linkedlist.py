@@ -11,7 +11,7 @@ class LinkedList:
 
     def append(self, value):
         new_node = Node(value)
-        if self.head is None:
+        if self.head is None: 
             self.head = new_node
             self.tail = new_node
         else:
@@ -56,7 +56,7 @@ class LinkedList:
     
     def search(self,target):
         current = self.head
-        index = 0 # returning the index value 
+        index = 0 # returning the index value
         while current:
             if current.value == target:
                 return index
